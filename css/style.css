@@ -99,22 +99,6 @@ ul {
   cursor: pointer;
 }
 
-.about {
-  font-size: 50%;
-  display: grid;
-  font-family: 'Nunito', sans-serif;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  text-transform: capitalize;
-  transition: all .2s linear;
-  min-height: 100vh;
-  padding: 1rem;
-  margin-top: auto;
-
-}
 
 
 
@@ -134,13 +118,40 @@ div .sidebar img {
   margin: 5%;
 }
 
+.about {
+  font-size: 50%;
+  display: grid;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  min-height: 100vh;
+  padding: 1rem;
+  margin-top: auto;
+
+
+  align-items: center;
+  position: static;
+  margin-right: -31px;
+}
+
 .container {
   display: grid;
   flex-direction: row-reverse;
   height: 100vh;
-  margin-top: 0px;
-  margin-right: -31px;
+  transition: all .2s linear;
+  min-height: 100vh;
+  padding: 1rem;
+  margin-top: auto;
+
+  /* margin-right: -31px; */
+
   position: static;
+
   background-color: #f0f0f0;
   align-items: center;
 }
