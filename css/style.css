@@ -15,7 +15,6 @@ body {
   background-color: #f0f0f0;
 }
 
-/* The sidebar menu */
 .sidebar {
   height: 100%;
   width: 0;
@@ -24,10 +23,8 @@ body {
   top: -26px;
   left: -3px;
   background-color: #f1f3ff;
-  /* transition: 0.5s; */
 }
 
-/* The sidebar links */
 .sidebar a {
   padding: 8px 8px 8px;
   text-decoration: none;
@@ -36,12 +33,6 @@ body {
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
-/* .sidebar a:hover {
-  color: #f1f1f1;
-} */
-
-/* Position and style the close button (top right corner) */
 .sidebar .closebtn {
   position: absolute;
   top: 0;
@@ -50,7 +41,6 @@ body {
   margin-left: 50px;
 }
 
-/* The button used to open the sidebar */
 .openbtn {
   font-size: 20px;
   cursor: pointer;
@@ -64,15 +54,10 @@ body {
   background-color: #444;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s;
-  /* If you want a transition effect */
   padding: 20px;
 }
-
-
-
 
 ul {
   display: block;
@@ -84,9 +69,7 @@ ul {
   padding-inline-start: 40px;
 }
 
-
 .sidebar li {
-
   border-bottom: 1px solid #f0f0f0;
   display: list-item;
   text-align: -webkit-match-parent;
@@ -98,10 +81,6 @@ ul {
   background-color: #f0f0f0;
   cursor: pointer;
 }
-
-
-
-
 
 div .sidebar img {
   height: 12rem;
@@ -123,7 +102,6 @@ div .sidebar img {
   display: grid;
   font-family: 'Nunito', sans-serif;
   margin: 0;
-  /* box-sizing: border-box; */
   text-decoration: none;
   outline: none;
   border: none;
@@ -132,8 +110,6 @@ div .sidebar img {
   min-height: 100vh;
   padding: 1rem;
   margin-top: auto;
-
-
   align-items: center;
   position: static;
   margin-right: -31px;
@@ -147,11 +123,7 @@ div .sidebar img {
   min-height: 100vh;
   padding: 1rem;
   margin-top: auto;
-
-  /* margin-right: -31px; */
-
   position: static;
-
   background-color: #f0f0f0;
   align-items: center;
 }
@@ -204,7 +176,6 @@ h3 {
   background-position: center;
   padding: 1rem 4rem;
   margin-right: -100px;
-  /* background-image: url('assets/img/programing-2.jpg'); */
 }
 
 .butnn {
@@ -231,12 +202,10 @@ h3 {
 }
 
 .about {
-
   padding: 1.8rem;
 }
 
 .btn {
-
   cursor: pointer;
   border-radius: 5rem;
 }
@@ -252,16 +221,12 @@ h3 {
   text-align: center;
 }
 
-
 header {
-
-
   background: #f0f0f0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
-
   position: fixed;
   flex: 0 0 200px;
   width: 250px;
@@ -303,20 +268,10 @@ header .navbar ul {
   background-color: #111;
 }
 
-
-
-/***********************************************************************
-*  Cover
-**********************************************************************/
-
-
 .cover {
   width: 30rem;
 }
 
-/***********************************************************************
-*  Grid Panel
-**********************************************************************/
 .grid-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -344,15 +299,11 @@ header .navbar ul {
   height: auto;
 }
 
-/***********************************************************************
-*  Footer
-**********************************************************************/
 footer {
   text-align: center;
   background-color: #444;
 }
 
-/* Style inputs */
 input[type=text],
 select,
 textarea {
@@ -381,8 +332,6 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: -5px;
   margin: 37px;
-  /* margin-right: -138px; */
-  /* position: inherit; */
   direction: rtl;
   align-items: center;
   block-size: auto;
@@ -391,15 +340,10 @@ input[type=submit]:hover {
   display: grid;
   outline-style: ridge;
   border-style: outset;
-
 }
 
-s
-
-/* Create two columns that float next to eachother */
-.column {
+s .column {
   float: left;
-
   margin-top: 6px;
   padding: 20px;
 }
@@ -411,15 +355,11 @@ s
 }
 
 .w3-button {
-
   top: 1.3rem;
-
-
   cursor: pointer;
   font-size: 2.5rem;
   padding: 1rem 1.5rem;
   z-index: 02;
-
 }
 
 .w3-xxlarge {
